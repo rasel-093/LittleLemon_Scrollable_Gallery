@@ -19,7 +19,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun AppScreen() {
-    NestedLazyList()
+    LazyGrid()
+   // NestedLazyList()
     //LazyLisScroll()
     //ScrollableGalleryScreen()
 }
